@@ -1,0 +1,124 @@
+.gradient-background {
+    background: linear-gradient(300deg, #4A628A, #DFF2EB, #7AB2D3, #091057);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  p {
+    margin: 0;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #A6AEBF;
+  }
+  
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .my-image {
+    width: 200px;
+    border-radius: 50%;   
+    margin-top: 100px; 
+  }
+
+  h2, h3 {
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #091057;
+  }
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.skills-img {
+    float: left;
+    margin-right: 50px;
+}
+
+#title-my-skills {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container > div {
+    width: 50%;
+}
+
+.skills-h2 {
+    margin-bottom: 30px;
+}
+
+#footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accounts {
+    display: flex;
+    gap:50px;
+    padding-top: 50px;
+}
+
+#copyr {
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.p-acc:hover {
+    color: white;
+}
+
+
+h1 {
+    color: #091057;
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 200px;
+  }
+
+
+
